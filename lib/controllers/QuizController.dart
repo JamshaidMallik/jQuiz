@@ -12,6 +12,7 @@ class QuizController extends GetxController {
   var isAnswering = false.obs;
   var selectedQuizAmount = 10.obs;
 
+
   Future<void> fetchQuestions() async {
     debugPrint('Fetching questions...: ${selectedQuizAmount.value}');
     isLoading.value = true;

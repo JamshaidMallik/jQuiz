@@ -87,7 +87,7 @@ class ResultScreen extends GetView<QuizController> {
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(horizontal: 36, vertical: 16),
-                  backgroundColor: Colors.blueAccent,
+                  backgroundColor: Colors.red,
                   foregroundColor: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
